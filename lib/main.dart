@@ -13,6 +13,7 @@ class MiAplication extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: HomePage(),
+      theme: ThemeData.dark(),
     );
   }
 }
