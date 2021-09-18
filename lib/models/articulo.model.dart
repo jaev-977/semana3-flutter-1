@@ -2,7 +2,7 @@ class Articulo {
   Source source;
   String author;
   String title;
-  String descriptions;
+  String description;
   String url;
   String urlToImage;
   DateTime publishedAt;
@@ -12,7 +12,7 @@ class Articulo {
     required this.source,
     required this.author,
     required this.title,
-    required this.descriptions,
+    required this.description,
     required this.url,
     required this.urlToImage,
     required this.publishedAt,
@@ -23,7 +23,7 @@ class Articulo {
         source: Source.fromJson(json["source"]),
         author: json["author"] ?? '',
         title: json["title"] ?? '',
-        descriptions: json["descriptions"] ?? '',
+        description: json["description"] ?? '',
         url: json["url"] ?? '',
         urlToImage: json["urlToImage"] ?? '',
         publishedAt: DateTime.parse(json["publishedAt"]),

@@ -41,7 +41,7 @@ class CardWidget extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Text(articulo.descriptions),
+                child: Text(articulo.description),
               ),
             ],
           ),
